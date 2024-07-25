@@ -7,7 +7,7 @@ const Counter = ({ start = 0, step = 1 }) => {
   const decrement = () => setCount(count - step);
 
   return (
-    <div>
+    <div className="component-container">
       <button onClick={decrement}>Decrement</button>
       <span>{count}</span>
       <button onClick={increment}>Increment</button>
